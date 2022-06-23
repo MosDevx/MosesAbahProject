@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="1024px"
+   height="1024px"
+   viewBox="0 0 1024 1024"
+   enable-background="new 0 0 1024 1024"
+   xml:space="preserve"
+   sodipodi:docname="apex-logo.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs621" /><sodipodi:namedview
+   id="namedview619"
+   pagecolor="#ffffff"
+   bordercolor="#cccccc"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="1"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   showgrid="false"
+   inkscape:zoom="1.3037281"
+   inkscape:cx="592.148"
+   inkscape:cy="639.70393"
+   inkscape:window-width="1914"
+   inkscape:window-height="1016"
+   inkscape:window-x="0"
+   inkscape:window-y="28"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="g616" />
+<g
+   id="g616">
+	<rect
+   fill="#0d0d11"
+   width="782.44891"
+   height="677.10925"
+   id="rect535"
+   x="127.72802"
+   y="147.68988"
+   style="stroke-width:0.730335;fill:#e3dedb" />
+	
+	
+	<linearGradient
+   id="SVGID_3_"
+   gradientUnits="userSpaceOnUse"
+   x1="291"
+   y1="483"
+   x2="735"
+   y2="483">
+		<stop
+   offset="0"
+   style="stop-color:#00BDFF;stop-opacity:0"
+   id="stop609" />
+		<stop
+   offset="1"
+   style="stop-color:#00D3BC"
+   id="stop611" />
+	</linearGradient>
+	<polygon
+   fill="url(#SVGID_3_)"
+   points="687.25,680 509.637,281.295 470.955,378.057 602.354,680 582.488,680 462.949,400.049    339.97,680 323.963,680 499.195,278 490.111,278 314.789,680 291,680 291,688 345.462,688 382.402,604 489,604 489,596    386.097,596 462.841,421.048 576.938,688 735,688 735,680  "
+   id="polygon614"
+   style="fill:#008080" />
+</g>
+</svg>
