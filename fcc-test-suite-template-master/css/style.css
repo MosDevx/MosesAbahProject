@@ -71,6 +71,7 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: #62e5b9;
   position: fixed;
   top: 0;
+  margin-bottom: 5em;
 }
 
 #header #main-logo {
@@ -111,6 +112,7 @@ body {
 }
 
 #main-div {
+  padding-top: 70px;
   border: 0px;
   display: -webkit-box;
   display: -ms-flexbox;

@@ -63,6 +63,7 @@
 	background-color: rgb(98, 229, 185);
 	position:fixed;
 	top:0;
+	margin-bottom:5em;
 	
 	#main-logo{
 		display:flex;
@@ -102,6 +103,7 @@
 
 
  #main-div{
+	 padding-top: 70px;
 	 border:0px;
 	 display:flex;
 	 flex-direction: column;
