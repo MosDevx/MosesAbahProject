@@ -63,11 +63,14 @@ p, h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-bottom: 1px solid;
-  background-color: aquamarine;
+  background-color: #62e5b9;
+  position: fixed;
+  top: 0;
 }
 
 #header #main-logo {
@@ -118,16 +121,171 @@ body {
           flex-direction: column;
 }
 
+#main-div #features {
+  place-self: center;
+  margin-top: 1em;
+}
+
+#main-div #features h2 {
+  text-align: center;
+}
+
+#main-div #features li {
+  font-size: 24px;
+  margin-bottom: 0.2em;
+}
+
+#main-div #video-div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2em;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto;
+}
+
+#main-div #video-div #video {
+  place-self: center;
+  width: 980px;
+  height: 540px;
+}
+
+#main-div #pricing {
+  place-self: center;
+  background-color: darkorchid;
+  padding: 2em 6em;
+  border: 0;
+  border-radius: 50%;
+  font-size: 20px;
+  margin: 3em;
+}
+
+#main-div #where-to-buy {
+  place-self: center;
+  width: 100%;
+  margin: 1em;
+}
+
+#main-div #where-to-buy h2 {
+  text-align: center;
+}
+
+#main-div #where-to-buy #locations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1em;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#main-div #where-to-buy #locations li {
+  font-size: 18px;
+  margin-bottom: 0.2em;
+}
+
+#main-div #email-div {
+  place-self: center;
+  text-align: center;
+}
+
+#main-div #email-div input[type="email"] {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 1em;
+}
+
+#main-div #email-div input[type="email"]:invalid {
+  -webkit-box-shadow: 0 0 5px 1px red;
+          box-shadow: 0 0 5px 1px red;
+}
+
+#main-div #email-div input[type="submit"] {
+  padding: 0.3em 1em;
+  background-color: #62e5b9;
+  margin-bottom: 3em;
+}
+
 #image-div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   place-items: center;
   background-color: black;
+}
+
+#image-div h1 {
+  color: #dc5c5c;
+  font-size: 48px;
+  letter-spacing: 0.2em;
+  margin: 0.5em;
+  text-transform: uppercase;
 }
 
 #image-div #hero-image {
   display: block;
   margin: auto;
+}
+
+@media screen and (max-width: 428px) {
+  #header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #header #main-logo {
+    margin-top: 0.2em;
+    margin-left: 2px;
+  }
+  #header #main-logo p {
+    font-size: 14px;
+  }
+  #header #nav-bar {
+    white-space: nowrap;
+    margin-top: 1em;
+  }
+  #header #nav-bar a {
+    font-size: 12px;
+  }
+  #main-div #image-div h1 {
+    font-size: 24px;
+  }
+  #main-div #video-div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 2em;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 0 auto;
+  }
+  #main-div #video-div #video {
+    width: 420px;
+    height: 240px;
+  }
+  #main-div #features li {
+    font-size: 20px;
+    margin-bottom: 0.1em;
+  }
 }
 /*# sourceMappingURL=style.css.map */
